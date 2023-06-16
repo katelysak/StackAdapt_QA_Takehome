@@ -1,0 +1,29 @@
+{
+  "name": "VCP",
+  "version": "1.0.0",
+  "description": "My first cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "cy:run": "cypress run",
+    "cy:spec": "cypress run --headless --spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.12.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^12.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katelysak/Stackadapt_QA_Takehome"
+  },
+  "other": {
+    "percy:token": "export PERCY_TOKEN='ea3882c512c8cfa19050e4f7b8fc0535e66d796697f5ea0bbd016e3bdcc73839'"
+  }
+}
