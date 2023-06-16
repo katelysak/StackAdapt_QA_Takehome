@@ -4,6 +4,7 @@ Automation task for Lysak Kate (QA)
 
 Feel free to use any automation frameworks or languages you feel comfortable with; this can be accomplished with native Javascript if one so chooses to.
 Submit a script that starts at our main page (https://www.stackadapt.com/) and navigates to our request a demo page (via the blue button in the top right), fills in the form with only the following information, and submits it:
+
 First name: Jane
 Last name: Doe
 Business Email: jane.doe@advertising.com
